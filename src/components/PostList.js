@@ -14,4 +14,4 @@ class PostList extends React.Component {
 
 
 
-export default connect(null, { PostList })(PostList);
+export default connect(null, { fetchPosts })(PostList);
